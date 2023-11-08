@@ -164,6 +164,8 @@ textarea:focus-visible
   margin: 15px !important;
   padding: 13px 20px !important;
   border-radius: 4px !important;
+  font-weight: 600 !important;
+  font-size: 17px !important;
 }
 .CookieConsent button#rcc-confirm-button:hover {
   background: #fff !important;
