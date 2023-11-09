@@ -25,7 +25,7 @@ export const BgCollunmSecWrapper = styled.div`
  .content {
     position: relative;
     z-index: 9;
-    width: 70%;
+    width: 65%;
     .text {
         width: 100%;
         max-width: 940px;

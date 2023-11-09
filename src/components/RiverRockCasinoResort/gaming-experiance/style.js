@@ -25,8 +25,8 @@ export const GamingExperienceWraspper = styled.div`
         grid-column-gap: 20px;
         .gaming-text {
             .headingstyle {
-                .heading {
-                    font-size: 28px !important;
+                .heading22 {
+                    font-size: 28px;
                    span {
                         font-size: 115px;
                     }
@@ -99,6 +99,12 @@ export const GamingExperienceWraspper = styled.div`
     }
     .headingstyle {
         text-align: left;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .css-oxvh5i .gaming-wrapper .gaming-content .gaming-text .headingstyle .heading22 {
+        font-size: 20px;
     }
 }
 

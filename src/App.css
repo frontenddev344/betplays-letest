@@ -336,9 +336,19 @@ section.formBar .inner form textarea {
 .CookieConsent {
   grid-template-columns: 1fr 20% !important;
 }
+.bannerMain .headingContent .text {
+  max-width: 90%;
+}
+.bannerMain .headingContent {
+  max-width: 90%;
+  margin: 0 auto;
+}
 }
 
 @media screen and (max-width: 767px){
+  .css-xp7c4p .bannerMain .headingContent .headingstyle {
+    max-width: 90% !important;
+}
   .CookieConsent {
     grid-template-columns: 1fr !important;
     text-align: center;
@@ -384,7 +394,7 @@ section.formBar .inner form textarea {
   width: 100% !important;
 }
 .BgCollunm .content {
-  width: 100%;
+  width: 100% !important;
 }
 .BgCollunm .content .text {
   max-width: 90% !important;
@@ -578,6 +588,12 @@ section.CardWrapper .CardInnerWrapper .whatofferlist li span {
   padding: 0 25px;
 }
 .css-c9dk3s .gaming-wrapper .gaming-content .gaming-text .headingstyle .heading {
-  font-size: 20px!important;
+  font-size: 20px !important;
+}
+.bannerMain .headingContent .headingstyle {
+  max-width: 90% !important;
+}
+.css-1xfojmb .bannerMain {
+  height: 60vh !important;
 }
 }

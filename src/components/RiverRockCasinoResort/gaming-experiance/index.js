@@ -22,7 +22,7 @@ export default function GamingExperience() {
                         </Box>
                         <Box className="gaming-text">
                             <Box className="headingstyle">
-                                <Typography className="heading">
+                                <Typography className="heading22">
                                     Here's a comprehensive look at this stunning resort
                                     {/* <span>resort</span> */}
                                 </Typography>
